@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "sourceMap": true,
+      "declaration": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
+      "isolatedModules": false,
+      "suppressImplicitAnyIndexErrors": false,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "importHelpers": true,
+      "newLine": "LF",
+      "skipLibCheck": true,
+      "noEmit": true,
+      "baseUrl": ".",
+      "resolveJsonModule": true,
+      "lib": ["es2019", "dom"],
+      "paths": {
+        "src/*": ["src/*"]
+      }
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules", "./public", "dist"],
+    "linterOptions": {
+      "exclude": []
+    }
+  }
+  

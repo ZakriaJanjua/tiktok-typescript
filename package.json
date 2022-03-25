@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-proxy",
+  "version": "1.0.0",
+  "description": "testing proxy agent for tiktok endpoints",
+  "main": "index.js",
+  "scripts": {
+    "start:ts": "tsc index",
+    "start:js": "node index"
+  },
+  "author": "Zakria",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/node-fetch": "^2",
+    "typescript": "^4.6.2"
+  }
+}
